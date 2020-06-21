@@ -1,11 +1,11 @@
 # Running the server
 
-'''
+```
 $ docker kill festival
 $ docker rm festival
 $ docker build -t festival-arabic:latest .
 $ docker run -p 8080:8080 --name festival festival-arabic:latest
-'''
+```
 
 This will take about 20 mins
 
